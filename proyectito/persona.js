@@ -3,7 +3,7 @@ function guardarNombre() {
     if (nombre) {
         localStorage.setItem('nombre', nombre); // Guardar el nombre en localStorage
         // Redirigir a chicas.html
-        window.location.href = './index.html';
+        window.location.href = 'index.html';
     } else {
         alert('Por favor, introduce un nombre.'); // Mensaje si el nombre está vacío
     }
